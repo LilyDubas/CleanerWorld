@@ -1,0 +1,852 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Thasadith&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap');
+
+*
+{
+	font-family: Poppins;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 20px;
+}
+
+body
+{
+	width: 80%;
+	margin: auto;
+	background-color: white;
+}
+
+header
+{
+	background-image: url('../img/fond.jpg');
+	height: 300px;
+	width: 100%;
+	background-position: bottom;
+	background-size: cover;
+	position: relative;
+	margin-top: -21px;
+}
+
+/* DEBUT STYLE NAV */
+
+h1
+{
+	font-family: Montserrat;
+	font-size: 5em;
+	text-align: center;
+	line-height: 300px;
+	color: white;
+	-webkit-text-stroke: 2px black;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+nav
+{
+	background-color: #AF8E4E;
+	width: 100%;
+	height: auto;
+	position: sticky;
+	top: 0;
+	text-align:center;
+	margin-top: -21px;
+	z-index: 998;
+}
+
+#logo_cleanerworld
+{
+	width: 100px;
+	position: absolute;
+	margin-left: 40%;
+}
+
+#logo_reseaux
+{
+	display: flex;
+	position: absolute;
+}
+
+#logo_reseaux img
+{
+	width: 50px;
+	margin-top: 7px;
+	margin-left: 10px;
+}
+
+nav ul
+{
+	list-style-type:none;
+}
+
+nav li
+{
+	display: inline-block;
+	line-height: 65px;
+	text-transform: uppercase;
+	margin-right: 30px;
+}
+
+nav a
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 1.1em;
+	transition: font-size 1s;
+	font-family: 'Thasadith', sans-serif;
+}
+
+nav a:hover
+{
+	font-size: 1.2em;
+}
+
+/* FIN STYLE NAV */
+
+/* DEBUT BLOC GENERAUX */
+
+#bloc_Home
+{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+main
+{
+	background-color: #f2f2f2;
+	height: auto;
+	padding: 30px;
+	margin-top: -21px;
+}
+
+
+.bloc_Large
+{
+	width: 100%;
+	margin: auto;
+	background-color: white;
+	height:auto;
+	-webkit-box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
+	box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
+	border: 1px solid #dfdede;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 80px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.bloc_small
+{
+	width: 320px;
+	background-color: white;
+	height: auto;
+	-webkit-box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
+	box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
+	border: 1px solid #dfdede;
+	overflow: hidden;
+	border-radius: 15px;
+	margin-top: 80px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.txt_Large
+{
+	margin-left: 25px;
+	max-width: 40%;
+	height: auto;
+	text-align: justify;
+	border-radius: 15px;
+	word-break: normal;
+}
+
+.txt_Large h2
+{
+	word-break: break-word;
+}
+
+.txt_small
+{
+	word-break: normal;
+	margin: auto;
+	width: 90%;
+	border-radius: 15px;
+	margin-top: 10px;
+}
+
+#title_Pages
+{
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 80px;
+	font-family: 'Cabin Sketch', cursive;
+	color: green;
+	margin-bottom: -10px;
+}
+
+/* FIN BLOC GENERAUX */
+
+/* DEBUT STYLE DE LA PAGE ACCUEIL */
+
+#img_Large_1_index
+{
+	width: 55%;
+	height: auto;
+	background-image: url('../img/marcheClimat.jpg');
+	background-size: cover;
+	border-radius: 15px;
+	background-position: center;
+}
+
+#img_Large_2_index
+{
+	width: 55%;
+	height: auto;
+	background-image: url('../img/no_pesticides.png');
+	background-size: cover;
+	border-radius: 15px;
+	background-position: center;
+}
+
+#img_small_1_index
+{
+	width: 100%;
+	height: 200px;
+	background-image: url('../img/small1.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#img_small_2_index
+{
+	width: 100%;
+	height: 200px;
+	background-image: url('../img/small2.jpg');
+	background-size: cover;
+}
+
+#img_small_3_index
+{
+	width: 100%;
+	height: 200px;
+	background-image: url('../img/small3.jpg');
+	background-size: cover;
+}
+
+/* FIN STYLE DE LA PAGE ACCUEIL */
+
+/* DEBUT STYLE DE LA PAGE EVENTS */
+
+#bloc_small_video_events
+{
+	width: 560px;
+	background-color: white;
+	margin: 10px;
+	-webkit-box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
+	box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
+	border: 1px solid #dfdede;
+	overflow: hidden;
+	border-radius: 15px;
+	margin-top: 80px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#img_Large_events
+{
+	width: 55%;
+	height: auto;
+	background-image: url('../img/plage.jpg');
+	background-size: cover;
+	border-radius: 15px;
+}
+
+/* FIN STYLE DE LA PAGE EVENTS */
+
+
+/* DEBUT STYLE DE LA PAGE ACTUS */
+
+#img_Large_1_actus
+{
+	width: 55%;
+	height: auto;
+	background-image: url('../img/marcheClimat2.jpg');
+	background-size: cover;
+	border-radius: 15px;
+	background-position: center;
+}
+
+#img_small_actus_1
+{
+	width: 100%;
+	height: 200px;
+	background-image: url('../img/plasticShip.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#img_small_actus_2
+{
+	width: 100%;
+	height: 200px;
+	background-image: url('../img/nightSky.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#img_small_actus_3
+{
+	width: 100%;
+	height: 200px;
+	background-image: url('../img/MetH.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+/* FIN STYLE PAGE ACTUS */
+
+
+/* DEBUT STYLE DE LA PAGE ASTUCES */
+
+.bloc_tips
+{
+	width: 260px;
+	background-color: white;
+	min-height: 480px;
+	height: auto;
+	-webkit-box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
+	box-shadow: 7px 9px 5px -6px rgba(0,0,0,0.75);
+	border: 1px solid #dfdede;
+	overflow: hidden;
+	transition: margin 2s;
+	border-radius: 15px;
+	margin-top: 80px;
+	margin-right: 2%;
+}
+
+.bloc_tips:hover
+{
+	margin-top: 60px;
+	border: 1px solid #B7B3B3;
+}
+
+.txt_tips
+{
+	margin: auto;
+	width: 90%;
+	text-align: justify;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 17px;
+}
+
+#img_tips1, #img_tips2, #img_tips3, #img_tips4, #img_tips5, #img_tips6, #img_tips7, #img_tips8
+{
+	width: 100%;
+	height: 150px;
+	background-size: cover;
+	background-position: center;
+}
+
+#img_tips1
+{
+	background-image: url('../img/tip1.jpg');
+}
+
+#img_tips2
+{
+	background-image: url('../img/tip2.jpg');
+}
+
+#img_tips3
+{
+	background-image: url('../img/tip3.jpg');
+}
+
+#img_tips4
+{
+	background-image: url('../img/tip4.jpg');
+}
+
+#img_tips5
+{
+	background-image: url('../img/tip5.jpg');
+}
+
+#img_tips6
+{
+	background-image: url('../img/tip6.jpg');
+}
+
+#img_tips7
+{
+	background-image: url('../img/tip7.jpg');
+}
+
+#img_tips8
+{
+	background-image: url('../img/tip8.jpg');
+}
+
+/* FIN STYLE DE LA PAGE ASTUCE */
+
+/* DEBUT STYLE DE LA PAGE CONTACT */
+
+#form_contact
+{
+	margin: auto;
+	margin-top: 80px;
+	text-align: center;
+	width: 400px;
+	max-width: 100%;
+	padding: 20px;
+	background-color:#488e48;
+	border-radius: 5px;
+}
+
+label
+{
+	display: block;
+}
+
+#form_contact input, textarea
+{
+	margin-bottom: 10px;
+	width: 250px;
+}
+
+/* FIN STYLE DE LA PAGE CONTACT */
+
+
+/* DEBUT STYLE FOOTER */
+footer
+{
+	background-color: #F2F2F2;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	padding-top: 40px;
+}
+
+.blockEnLigne
+{
+	display: inline-block;
+}
+
+/* Afficher masquer block cookie */
+#container
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#cookie
+{
+	display:none;
+	background: #F2F2F2;
+	padding:1%;
+}
+
+#afficher:target #cookie
+{
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%);
+	width:98%;
+}
+
+.masquer
+{
+	display:none;
+}
+
+#afficher:target .masquer
+{
+	display:inline;
+}
+
+#afficher:target .afficher
+{
+	display:none;
+}
+
+/* Afficher masquer block politique confidentialite*/
+#polConfidence
+{
+	display:none;
+	background: #F2F2F2;
+	padding:1%;
+}
+
+#afficher2:target #polConfidence
+{
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%);
+	width:98%;
+}
+
+.masquer2
+{
+	display:none;
+}
+
+#afficher2:target .masquer2
+{
+	display:inline;
+}
+
+#afficher2:target .afficher2
+{
+	display:none;
+}
+
+/* Politique infos personnelles*/
+#polInfoPerso
+{
+	display:none;
+	background: #F2F2F2;
+	padding:1%;
+}
+
+#afficher3:target #polInfoPerso
+{
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%);
+	width:98%;
+}
+
+.masquer3
+{
+	display:none;
+}
+
+#afficher3:target .masquer3
+{
+	display:inline;
+}
+
+#afficher3:target .afficher3
+{
+	display:none;
+}
+
+/* FIN STYLE FOOTER */
+
+
+/* DEBUT PIEUVRE */
+#bulle
+{
+	padding: 20px;
+	background-color: white;
+	width: 250px;
+	height: 80px;
+	border-radius: 100px;
+	position: absolute;
+	margin-bottom: 120px;
+	right: -80px;
+	top: 40px;
+	z-index: 999;
+	border: 1px solid #c8c4c4;
+	font-family: 'Thasadith', sans-serif;
+	animation-duration: 5s;
+	animation-name: bul;
+	animation-fill-mode: forwards;
+}
+
+.container2
+{
+	text-align: center;
+	position: fixed;
+	width: 270px;
+	margin: auto;
+	padding-top: 100px;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	animation-duration: 2s;
+	animation-delay: 5s;
+	animation-name: back;
+	animation-fill-mode: forwards;
+}
+
+@keyframes back
+{
+	from
+	{
+		left: 0;
+	}
+
+	70%
+	{
+		left: 0;
+	}
+
+	90%
+	{
+		left: -50%;
+	}
+
+	to
+	{
+		left: -50%;
+	}
+}
+
+#corps
+{
+	background-color: #906185;
+	height: 160px;
+	width: 140px;
+	border-radius: 40px 40px 0 0;
+	position: relative;
+	border-width:8px 0 0 8px;
+	border-style: solid;
+	border-color: #a08599;
+	margin:auto;
+}
+
+#oeilgauche
+{
+	background-color: white;
+	height: 70px;
+	width: 70px;
+	border-radius: 60px;
+	position: absolute;
+	top: 70px;
+	left: -20px;
+	border: 1px solid #c8c4c4;
+}
+
+#oeildroit
+{
+	background-color: white;
+	height: 70px;
+	width: 70px;
+	border-radius: 50px;
+	position: absolute;
+	top: 70px;
+	right: -20px;
+	border: 1px solid #c8c4c4;
+}
+
+.pupille
+{
+	background-color: black;
+	height: 45px;
+	width: 45px;
+	border-radius: 70px;
+	position: absolute;
+	right: 14px;
+	top: 13px;
+	animation-duration: 2s;
+	animation-name: moveeye;
+	animation-iteration-count: infinite;
+}
+
+#smile
+{
+	width: 55px;
+	height: 24px;
+	background-color: white;
+	position: absolute;
+	bottom: 13px;
+	left: 50%;
+	transform: translate(-50%);
+	border-radius: 10px;
+	animation-duration: 1s;
+	animation-name: smil;
+	animation-iteration-count: 2;
+}
+
+.tenta
+{
+	width: 14px;
+	height: 55px;
+	position: relative;
+	background-color:  #906185;
+	margin-right: 2px;
+	margin-left: 5px;
+	display: inline-block;
+	border-radius: 0 0 50px 50px;
+	border-width:0 0 0 2px;
+	border-style: solid;
+	border-color: #a08599;
+}
+
+@keyframes moveeye
+{
+	from
+	{
+		right: 14px;
+	}
+
+	33%
+	{
+		right: 20px;
+	}
+
+	to
+	{
+		right: 6px;
+	}
+}
+
+@keyframes smil
+{
+	from
+	{
+		width: 55px;
+	}
+
+	50%
+	{
+		width: 40px;
+	}
+
+	to
+	{
+		width: 50px;
+	}
+}
+
+@keyframes bul
+{
+	from
+	{
+		right: 500px;
+	}
+
+	10%
+	{
+		right: -130px;
+	}
+
+	90%
+	{
+		right: -130px;
+	}
+
+	to
+	{
+		right: 500px;
+	}
+}
+
+/* FIN PIEUVRE */
+
+/* FIN SLIDER */
+
+#slider_container{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+#slider{
+	margin-top: 1%;
+  width:900px;
+  border:4px solid #fff;;
+  outline:1px solid #999;
+  height:390px;
+  background-color: #d3d3d3;
+  overflow: hidden;
+}
+
+#allpic img {
+  max-width: 270px;
+}
+
+#allpic{
+  width:124px;
+  height:375px;
+  background:#ccc;
+  margin:5px 0 0 5px;
+  float:left;
+  transition:all .5s ease-out;
+  overflow:hidden;
+  border:2px solid #fff;;
+  outline:1px solid #999;
+  position: relative;
+}
+
+#allpic:hover {
+  width:270px;
+  height: 375px;
+}
+
+/* FIN SLIDER */
+
+/* PARTIE RESPONSVIE MEDIA QUERIES */
+@media screen and (max-width: 880px)
+{
+	nav
+	{
+		position: relative;
+	}
+
+	nav li
+	{
+		display: block;
+		margin-top: -30px;
+	}
+
+	.img_Large
+	{
+		background-size: contain;
+	}
+
+	.img_Large_Bas
+	{
+		background-size: contain;
+	}
+
+	h1
+	{
+		font-size: 2em;
+	}
+
+	.container2
+	{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 600px)
+{
+	#my_form input, textarea
+	{
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+	#my_form
+	{
+		width: 80%;
+	}
+
+}
+
+/* FIN PARTIE RESPONSIVE MEDIA QUERIES */
